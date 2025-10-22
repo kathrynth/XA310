@@ -7,7 +7,7 @@ const people = [
   siblings: true,
   pets: true,
   favoriteColor: "purple"
-}
+},
 
 {
     firstName: "Julia",
@@ -18,7 +18,7 @@ const people = [
     pets: true,
     favoriteColor: "purple",
     closeSecondFavoriteColor: "green"
-}
+},
 
 {
     firstName: "Thomas",
