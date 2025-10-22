@@ -28,5 +28,10 @@ const people = [
     siblings: true,
     pets: true,
     favoriteColor: "light-blue",
-}	
+},
+  
+{
+  siblings: false,
+  pets: true
+}
 ]
