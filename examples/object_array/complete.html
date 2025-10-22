@@ -31,21 +31,21 @@ console.log(hasSiblings)
 
 // Create an array of all people who do NOT have pets
 // You will need people.filter
-const noPets = 
-
-
+const noPets = people.filter(person =>
+	person.pets === false)
+console.log(noPets)
 
 // Create an array of all people who have pets but no siblings
 // You will need people.filter
-const petsNoSiblings = 
+const petsNoSiblings = people.filter(person =>
+	person.pets === true && person.siblings === false)
+console.log(petsNoSiblings)
 
-
-
-// Create an array that stores everyone's names in firstName,lastName format, sorted alphabetically by last name
+// Create an array that stores everyone's names in lastName,firstName format, sorted alphabetically by last name
 // you will need people.map
-const lastFirstSorted = 
-
-
+const lastFirstSorted = people.map(person =>
+	`$(person.lastName), $(person.firstName)`)
+console.log(lastFirstSorted)
 
 // Create a function that accepts two parameters - a color name and an array.
 // It then returns an array of all the objects where the person's favorite color matches.
