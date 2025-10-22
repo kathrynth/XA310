@@ -6,7 +6,7 @@ const people = [
   age: 40,
   siblings: true,
   pets: true,
-  favoriteColor: "purple"
+  favoriteColor: "Purple"
 },
 
 {
