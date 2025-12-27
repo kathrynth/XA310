@@ -6,8 +6,8 @@ const people = [
   age: 40,
   siblings: true,
   pets: true,
-  favoriteColor: "purple"
-}
+  favoriteColor: "Purple"
+},
 
 {
     firstName: "Julia",
@@ -18,7 +18,7 @@ const people = [
     pets: true,
     favoriteColor: "purple",
     closeSecondFavoriteColor: "green"
-}
+},
 
 {
     firstName: "Thomas",
@@ -28,5 +28,10 @@ const people = [
     siblings: true,
     pets: true,
     favoriteColor: "light-blue",
-}	
+},
+  
+{
+  siblings: false,
+  pets: true
+}
 ]
