@@ -7,26 +7,37 @@ const people = [
   siblings: true,
   pets: true,
   favoriteColor: "purple"
+},
+
+{
+  firstName: “Isabella”,
+  lastName: “Jungman”,
+  gradYear: “2027”,
+  age: 21,
+  siblings: true,
+  pets: false,
+  favoriteColor: “Pink”
+},
+
+
+{
+  firstName: “Alison”,
+  lastName: “Bamberg”,
+  gradYear: “2028”,
+  age: 21,
+  siblings: true,
+  pets: true,
+  favoriteColor: “Pink”
 }
 
 {
-    firstName: "Julia",
-    lastName: "Bolash",
-    msuGradYear: 2028,
-    age: 19,
+    firstName: "Bree",
+    lastName: "Personett",
+    gradYear: "2027",
+    age: 21,
     siblings: true,
-    pets: true,
-    favoriteColor: "purple",
-    closeSecondFavoriteColor: "green"
+    pets: false,
+    favoriteColor: "Green"
 }
-
-{
-    firstName: "Thomas",
-    lastName: "Quirin",
-    gradYear: 2026,
-    age: 23,
-    siblings: true,
-    pets: true,
-    favoriteColor: "light-blue",
-}	
+  
 ]
