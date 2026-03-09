@@ -28,7 +28,7 @@ const people = [
   siblings: true,
   pets: true,
   favoriteColor: “Pink”
-}
+},
 
 {
     firstName: "Bree",
